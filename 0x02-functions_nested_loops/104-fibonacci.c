@@ -8,7 +8,7 @@
 
 int num_length(int num)
 {
-	int length;
+	int length = 0;
 
 	if (!num)
 		return (1);
