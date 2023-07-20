@@ -1,4 +1,4 @@
-#include "main.h"
+#include <stdio.h>
 
 /**
  * main - print numbers from 1 to 100 exceptmultiples of three
