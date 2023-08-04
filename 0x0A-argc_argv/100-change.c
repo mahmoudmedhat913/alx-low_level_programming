@@ -28,7 +28,7 @@ int main(int argc, char *argv[])
 		return (0);
 	}
 	i = 0;
-	while (i < 5 && num >=0)
+	while (i < 5 && num >= 0)
 	{
 		while (num >= coin[i])
 		{
