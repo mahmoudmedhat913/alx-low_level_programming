@@ -3,18 +3,19 @@
 
 /**
  * *_memset - fill memory with constant byte
- * @a: memory area
- * @s: char
+ * @s: memory area
+ * @b: char
  * @n: no. of times to copy s
+ * Return: s
  */
 
-char *_memset(char *a, char s, unsigned int n)
+char *_memset(char *s, char b, unsigned int n)
 {
 	unsigned int i;
 
 	for (i = 0; i < n; i++)
-		a[i] = s;
-	return (a);
+		s[i] = b;
+	return (s);
 }
 
 /**
