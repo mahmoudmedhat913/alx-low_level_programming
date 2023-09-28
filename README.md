@@ -1,1 +1,1 @@
-C - Debugging
+C - Bit manipulation
