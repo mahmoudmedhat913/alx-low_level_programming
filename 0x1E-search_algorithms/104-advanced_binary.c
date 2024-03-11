@@ -38,7 +38,7 @@ int recsearch(int *array, size_t size, int value)
  * @array: array
  * @size: size
  * @value: value
- * return: index
+ * Return: index
  */
 
 int advanced_binary(int *array, size_t size, int value)
